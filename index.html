@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		body{
+			background-color: powderblue;
+			table, th, td {
+  				border: 1px solid black;
+  				border-collapse: collapse;
+			}
+			table.nolinetable,
+			table.nolinetable th,
+			table.nolinetable td {
+  				border: none
+			}
+			th, td {
+ 				padding: 15px;
+			}
+			.content {
+				max-width: 800px;
+				margin:auto;
+			}
+			h1{
+				font-family: Arial; font-size: 20; text-align: center;
+			}
+			h2{
+				font-family: Arial; font-size: 16;
+			}
+			h3{
+				font-family: Arial; font-size: 14;
+			}
+			p{
+				font-size: 12;
+			}
+			img {
+  				display: block;
+  				margin-left: auto;
+ 				margin-right: auto;
+ 				width: 50%;
+			}
+			}
+	</style>
+</head>
+
+<body>
+<div class="content">
+	<h1> SLEEP </h1>
+	<img src ="photos/sleeping.jpeg" style = "width:350px" >
+	<h2> What is sleep?</h2>
+	<h3> Sleep is a state of reduced mental and physical activity in which consciousness is altered and certain sensory activity is inhibited. During sleep, there is a marked decrease in muscle activity and interactions with the surrounding environment. While sleep differs from wakefulness in terms of the ability to react to stimuli, it still involves active brain patterns, making it more reactive than a coma or disorders of consciousness.
+	Sleep occurs in repeating periods, during which the body alternates between two distinct modes: REM and non-REM sleep. Although REM stands for "rapid eye movement", this mode of sleep has many other aspects, including virtual paralysis of the body. Dreams are a succession of images, ideas, emotions, and sensations that usually occur involuntarily in the mind during certain stages of sleep </h3>
+
+	<table class="nolinetable">
+		<tr>
+			<td>
+				<video width="320" height="240" controls style="margin: 30px;"">
+					<source src="videos/sleep-important.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+			</td>
+			<td>
+				<h3> Benefits of sleep </h3>
+				<ol>
+					<li>Get sick less often</li>
+					<li>Stay at a healthy weight</li>
+					<li>Lower your risk for serious health problems</li>
+					<li>Reduce stress</li>
+					<li>Think more clearly</li>
+					<li><a href = "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6281147/">Click here to view a study about sleep</a></li>
+				</ol>
+			</td>
+		</tr>
+	</table>
+	<table class = "nolinetable">
+		<tr>
+			<td>
+				<h3> How much sleep you should get</h3>
+					<table>
+						<tr>
+							<th>Age</th>
+							<th>Recommended amount of sleep</th>
+						</tr>
+						<tr>
+							<th>3 to 5 years:</th>
+							<td>10 to 13 hours, including naps</td>
+						</tr>
+						<tr>
+							<th>6 to 12 years:</th>
+			  				<td>9 to 12 hours</td>
+						</tr>
+						<tr>
+							<th>13 to 18 years:</th>
+			  				<td>8 to 10 hours</td>
+						</tr>
+						<tr>
+							<th>Adults:</th>
+			  				<td>7 or more hours</td>
+						</tr>
+					</table>
+			</td>
+			<td>
+				<img src ="photos/sleeping2.jpg" style = "width:350px" >
+			</td>
+		</tr>
+	</table>
+	<h2>Contact Me</h2>
+	
+		<h3>Email</h3>
+			<a href="mailto:hello@gmail.com">Email</a>
+	
+		<h3>Phone Number</h3>
+			<a href="tel:91238887">Tel No.</a>
+
+		<h3>leave a message</h3>
+		<form>
+  			<label for="fname">Name:</label><br>
+ 			<input type="text" id="fname" name="fname"><br>
+  			<label for="lname">Message:</label><br>
+ 			<input type="text" id="lname" name="lname"><br>
+ 			<input type="submit" value="submit" onclick="alert('hello')">
+		</form>
+
+</div>
+</body>
+</html>
